@@ -6,6 +6,7 @@
   --color-lightgray: #f5f4fa;
   --color-background-footer: #2f303a;
   --color-studio: #000000;
+  --color-icons: #afb1b8;
 }
 
 * {
@@ -73,7 +74,7 @@ body {
   color: var(--color-text-light);
   list-style-type: none;
   display: flex;
-  margin-left: 371px;
+  margin-left: 345px;
 }
 
 .contact-link:hover,
@@ -123,6 +124,13 @@ body {
   font-weight: 700;
   line-height: 1.875;
   cursor: pointer;
+}
+
+.lorem-ipsum-svg {
+  background-color: #f5f4fa;
+  padding: 25px 102.34px;
+  border-radius: 4px;
+  margin-bottom: 30px;
 }
 
 .lorem-ipsum ul {
@@ -192,8 +200,28 @@ body {
   line-height: 1.171875;
   display: flex;
   justify-content: center;
-  padding-bottom: 30px;
+  padding-bottom: 16px;
 }
+
+.socialmedia-icons {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 22px 0;
+}
+
+.socialmedia-icon {
+  box-sizing: border-box;
+  fill: var(--color-icons);
+
+  padding: 11px;
+}
+
+/* .socialmedia-icon:hover,
+.socialmedia-icon:focus {
+  background-color: var(--color-text-hover);
+  fill: var(--color-white);
+  border-radius: 50%;
+} */
 
 .list-btn-portfolio {
   list-style: none;
