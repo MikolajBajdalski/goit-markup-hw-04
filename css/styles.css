@@ -129,6 +129,11 @@ body {
 }
 
 .baner {
+  padding: 0;
+  background-color: var(--color-background-footer);
+}
+
+.baner-img {
   background-image: linear-gradient(
       to bottom,
       rgba(0, 0, 0, 0.4),
@@ -137,12 +142,14 @@ body {
     url("../images/office.jpg");
   max-width: 1600px;
   margin: 0 auto;
+  padding: 200px 0;
 }
 
 .baner .container {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 0;
 }
 
 .container h1 {
